@@ -11,7 +11,7 @@ export const addSlot = async (req, res) => {
     const slot = new ParkingSlot({ slotNo, isCovered, isEVCharging });
     await slot.save();
 
-    res.json({ message: "Slot added successfully", slot });
+    res.json({ message: `Slot ${slotNo} added successfully`, slot });
   } catch (error) {
     res.status(500).json({ message: "Server Error" });
   }
