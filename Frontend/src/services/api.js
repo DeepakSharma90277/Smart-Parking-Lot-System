@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/slots";
+const API = "https://smart-parking-lot-system-suby.onrender.com";
 
 export const addSlot = (data) => axios.post(`${API}/add`, data);
 export const getSlots = () => axios.get(API);
