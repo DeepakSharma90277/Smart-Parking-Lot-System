@@ -9,6 +9,8 @@ export default function ParkVehicle({ fetchSlots, setMessage }) {
     const res = await parkVehicle({ needsEV, needsCover });
     setMessage(res.data.message);
     fetchSlots(); // Auto refresh table
+    setNeedsEV(false);
+    setNeedsCover(false);
   };
 
   return (
