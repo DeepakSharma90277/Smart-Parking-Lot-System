@@ -13,10 +13,6 @@ A MERN-based Smart Parking Lot System that:
 Frontend: https://smart-parking-lot-system-my5d.vercel.app/  
 Backend: https://smart-parking-lot-system-suby.onrender.com
 
-=======
-Frontend: https://smart-parking-lot-system-my5d.vercel.app/
-Backend: https://smart-parking-lot-system-suby.onrender.com/
->>>>>>> 7600097b150e0b300574ddaa5b3be02dad22139b
 ## 🛠 Tech Stack
 - Frontend: React + Vite + Tailwind CSS  
 - Backend: Node.js + Express.js  
