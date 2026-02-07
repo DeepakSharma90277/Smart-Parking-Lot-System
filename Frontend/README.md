@@ -9,8 +9,8 @@ A MERN-based Smart Parking Lot System that:
 - Displays real-time slot status
 
 ## 🚀 Live Demo
-Frontend: https://your-vercel-link.vercel.app  
-Backend: https://your-render-link.onrender.com
+Frontend: https://smart-parking-lot-system-my5d.vercel.app/  
+Backend: https://smart-parking-lot-system-suby.onrender.com
 
 ## 🛠 Tech Stack
 - Frontend: React + Vite + Tailwind CSS  
